@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="IDGS01_Api1ModelStoreContainer" CdmEntityContainer="IDGS01_Api1Entities">
+    <EntitySetMapping Name="DbUsuario">
+      <EntityTypeMapping TypeName="IDGS01_Api1Model.DbUsuario">
+        <MappingFragment StoreEntitySet="DbUsuario">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Ap1" ColumnName="Ap1" />
+          <ScalarProperty Name="Ap2" ColumnName="Ap2" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

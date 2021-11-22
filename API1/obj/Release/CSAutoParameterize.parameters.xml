@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IDGS01_Api1Entities-Web.config Connection String" description="IDGS01_Api1Entities Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=ARTTHUR;initial catalog=IDGS01_Api1;persist security info=True;user id=artthurSQL;password=ABC123;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\arttu\\source\\repos\\2U\\API1\\API1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='IDGS01_Api1Entities']/@connectionString" />
+  </parameter>
+</parameters>
